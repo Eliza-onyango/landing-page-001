@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="Assets/CSS/contact.css" />
+    <link rel="stylesheet" href="Assets/CSS/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <img src="Assets/Images/logo-1.png" />
+        </div>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#">Docs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+        </nav>
+        <div class="auth-buttons">
+          <a href="signin.html"><button class="login">Login</button></a>
+          <a href="Sign_up.html"><button class="signup">Sign up</button></a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="contact-container">
+        <div class="contact-info">
+          <h2>Contact Us</h2>
+          <p><strong>Address:</strong> Kimbo, Ruiru, 00232 Kiambu, Kenya</p>
+          <p><strong>Phone:</strong>+254791663688</p>
+          <p><strong>Email:</strong> shambasalama@proton.com</p>
+        </div>
+        <div class="contact-form">
+          <h2>Get in Touch</h2>
+          <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section about">
+          <h2>Shamba Salama</h2>
+          <p>
+            Smart Pest Deterrent System used to scare away quelea birds and
+            locust.
+          </p>
+        </div>
+        <div class="footer-section links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer-section contact">
+          <h3>Contact Us</h3>
+          <p>
+            <i class="fas fa-phone"></i>
+            <a href="tel:+2547017220666"> Phone</a>
+          </p>
+          <p>
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:shambasalama@proton.com"> Email</a>
+          </p>
+          <p>
+            <i class="fas fa-map-marker-alt"></i> Kimbo, Ruiru, 00232 Kiambu,
+            Kenya
+          </p>
+        </div>
+        <div class="footer-section social">
+          <h3>Follow Us</h3>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
